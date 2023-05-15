@@ -13,12 +13,11 @@
             width: 100%;
             max-width: 600px;
             margin: 0 auto;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: Arial, Helvetica, sans-serif
         }
 
         td {
             text-align: center;
-            padding: 10px;
         }
 
         .header {
@@ -33,18 +32,30 @@
         }
 
         #body-products {
-            box-shadow: 2px -10px 37px -12px rgba(0, 0, 0, 0.46);
+            box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.12);
+        }
+
+        .product,
+        .product-2line {
+            width: 200px;
         }
 
         .product {
-            width: 200px;
-            padding: 30px 10px 0;
+            padding: 32px 0 16px 0;
+        }
+
+        .ex-left {
+            padding: 0 16px 0 32px;
+        }
+
+        .ex-right {
+            padding: 0 32px 0 16px;
         }
 
         .product-2line {
-            width: 200px;
-            padding: 0px 10px 30px;
+            padding: 0 0 31px 0;
         }
+
 
         .product img,
         .product-2line img {
@@ -86,6 +97,7 @@
 
         .icons {
             background-color: orange;
+            padding: 10px 0;
         }
 
         .footer {
@@ -97,9 +109,19 @@
 
         @media only screen and (max-width: 480px) {
 
+            .header h1 {
+                padding: 0;
+                margin: 0;
+            }
+
+            .header {
+                padding: 20px 0;
+            }
+
             .title,
             .text-bye {
                 font-size: 20px;
+                padding: 30px 0 10px 0;
             }
 
             .title-product {
@@ -109,21 +131,40 @@
 
             .product,
             .product-2line {
-                width: 70%;
-                padding: 10px;
+                width: 150px;
             }
 
+            .product {
+                padding: 16px 0 12px 0;
+            }
+
+            .ex-left {
+                padding: 0 12px 0 16px;
+            }
+
+            .ex-right {
+                padding: 0 16px 0 12px;
+            }
+
+            .product-2line {
+                padding: 0 0 15px 0;
+            }
+
+            .date {
+                margin: 5px;
+
+            }
 
             .value {
-                font-size: 18px;
+                font-size: 15px;
             }
 
             .icon-img {
-                width: 50%;
+                width: 30%;
             }
 
             .icons {
-                padding: 0px;
+                padding: 8px 0;
             }
 
 
@@ -131,36 +172,7 @@
                 font-size: 12px;
                 padding: 12px;
             }
-        }
 
-        @media only screen and (max-width: 600px) and (min-width: 480px) {
-
-            .title,
-            .text-bye {
-                font-size: 24px;
-            }
-
-            .product,
-            .product-2line {
-                width: 80%;
-                padding: 20px;
-            }
-
-            .value {
-                font-size: 16px;
-            }
-
-            .icon-img {
-                width: 40%;
-            }
-
-            .icons {
-                padding: 10px 0;
-            }
-
-            .footer {
-                font-size: 13px;
-            }
         }
     </style>
 </head>
@@ -181,7 +193,7 @@
         </thead>
         <tbody id="body-products">
             <tr>
-                <td>
+                <td class="ex-left">
                     <div class="product">
                         <a href="#" target="_blank"><img src="img/products/allegra.png"
                                 alt="Imagem de uma caixa roxa de Allegra, medicamento antialégico. Na caixa além da explicação sobre a medicação, contém a imagem de uma seringa."></a>
@@ -199,7 +211,7 @@
                         <p class="value">Por: R$44,90</p>
                     </div>
                 </td>
-                <td>
+                <td class="ex-right">
                     <div class="product">
                         <a href="#" target="_blank"><img src="img/products/lenço.png"
                                 alt="Imagem de uma embalagem contendo lenço umedecido. A embalagem é metade laranja e                         metade amarela com o desenho do contorno de patas de tigre na parte amarela."></a>
@@ -213,7 +225,7 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="ex-left">
                     <div class="product-2line">
                         <a href="#" target="_blank"><img src="img/products/payout.png"
                                 alt="Imagem da embalagem do Tônico revitalizante da Payout. A embalagem é grande e laranja, com as informações referentes ao produto escritas em branco."></a>
@@ -233,7 +245,7 @@
                         <p class="value">Por: R$ 94,90</p>
                     </div>
                 </td>
-                <td>
+                <td class="ex-right">
                     <div class="product-2line"><a href="#" target="_blank">
                             <img src="img/products/vitc.png"
                                 alt="Imagem da caixa da Vitamina C da Payout e da embalagem do produto do lado. Ambas são laranjas."></a>
@@ -288,7 +300,7 @@
                 45544-0097
                 (capitais e regiões metropolitanas) e 0800 778 5658 (demais localidades), atendimento de segunda
                 a
-                sábado, das 8h às 22h, exceto feriados. SAC Propz - Reclamaçòes, cancelamentos e informaçòes
+                sábado, das 8h às 22h, exceto feriados. SAC Propz - Reclamações, cancelamentos e informaçòes
                 gerais:
                 0800 985 985 9365 Deficiência auditiva ou de fala: 0800 722 0088 (atendimento 24 horas, 7 dias
                 por
