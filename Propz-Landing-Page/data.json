@@ -3,6 +3,7 @@
     {
       "image": "img/products/batom-ysl.png",
       "nameproduct": "Batom Yves Saint Laurent",
+      "linkproduct": "https://www.ysl.com/en-en",
       "mls": "6ml",
       "valueCreditNoFees": "3XR$61,66",
       "valueCredit": "5XR$45,00",
@@ -12,6 +13,7 @@
     {
       "image": "img/products/babyliss-paris.png",
       "nameproduct": "Modelador de Cabelo Paris",
+      "linkproduct": "https://www.babylissprooficial.com.br/",
       "mls": "",
       "valueCreditNoFees": "2XR$70,30",
       "valueCredit": "5XR$30,12",
@@ -21,6 +23,7 @@
     {
       "image": "img/products/foundation-fenty.png",
       "nameproduct": "Base líquida Fenty longa duração",
+      "linkproduct": "https://fentybeauty.com/",
       "mls": "30ml",
       "valueCreditNoFees": "5XR$52,00",
       "valueCredit": "10XR$29,00",
@@ -30,6 +33,7 @@
     {
       "image": "img/products/perfume-chanel.png",
       "nameproduct": "Chanel N 5 EDP feminino",
+      "linkproduct": "https://www.chanel.com/br/",
       "mls": "100ml",
       "valueCreditNoFees": "5XR$159,80",
       "valueCredit": "10XR$85,00",
@@ -39,6 +43,7 @@
     {
       "image": "img/products/pinceis-elan.png",
       "nameproduct": "Set 15 Pincéis Profissionais",
+      "linkproduct": "https://elancosmetics.net/tools-and-brushes",
       "mls": "",
       "valueCreditNoFees": "3XR$70,63",
       "valueCredit": "10XR$23,99",

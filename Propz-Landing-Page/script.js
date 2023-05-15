@@ -40,9 +40,14 @@ fetch("data.json")
       var card = document.createElement("div");
       card.className = "card";
       card.innerHTML = `
-    <img class="img-product" src="${data.products[i].image}">
+      <a href="${data.products[i].linkproduct}" target="_blank">
+    <img class="img-product" src="${data.products[i].image}"></a>
     <div class="name-size-container">
-        <h2 class="name-product">${data.products[i].nameproduct}</h2>
+        <a class="name-link" href="${
+          data.products[i].linkproduct
+        }" target="_blank"><h2 class="name-product">${
+        data.products[i].nameproduct
+      }</h2></a>
         <p class="size-product">${data.products[i].mls}</p>
     </div>
     <div class="no-fees-credit-card-container">
