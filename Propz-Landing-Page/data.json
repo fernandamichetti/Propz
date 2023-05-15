@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "image": "img/products/batom-ysl.png",
+      "nameproduct": "Batom Yves Saint Laurent",
+      "mls": "6ml",
+      "valueCreditNoFees": "3XR$61,66",
+      "valueCredit": "5XR$45,00",
+      "value": "ou R$185,00 à vista",
+      "creditCards": ["img/card/visa.png", "img/card/mastercard.png"]
+    },
+    {
+      "image": "img/products/babyliss-paris.png",
+      "nameproduct": "Modelador de Cabelo Paris",
+      "mls": "",
+      "valueCreditNoFees": "2XR$70,30",
+      "valueCredit": "5XR$30,12",
+      "value": "ou R$130,60 à vista",
+      "creditCards": ["img/card/visa.png", "img/card/mastercard.png"]
+    },
+    {
+      "image": "img/products/foundation-fenty.png",
+      "nameproduct": "Base líquida Fenty longa duração",
+      "mls": "30ml",
+      "valueCreditNoFees": "5XR$52,00",
+      "valueCredit": "10XR$29,00",
+      "value": "ou R$258,00 à vista",
+      "creditCards": ["img/card/visa.png", "img/card/mastercard.png"]
+    },
+    {
+      "image": "img/products/perfume-chanel.png",
+      "nameproduct": "Chanel N 5 EDP feminino",
+      "mls": "100ml",
+      "valueCreditNoFees": "5XR$159,80",
+      "valueCredit": "10XR$85,00",
+      "value": "ou R$780,00 à vista",
+      "creditCards": ["img/card/visa.png", "img/card/mastercard.png"]
+    },
+    {
+      "image": "img/products/pinceis-elan.png",
+      "nameproduct": "Set 15 Pincéis Profissionais",
+      "mls": "",
+      "valueCreditNoFees": "3XR$70,63",
+      "valueCredit": "10XR$23,99",
+      "value": "ou R$210,00 à vista",
+      "creditCards": ["img/card/visa.png", "img/card/mastercard.png"]
+    }
+  ]
+}
